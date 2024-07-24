@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Journal App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Journal App</h1>
+        <form id="weatherForm">
+            <label for="zipcode">Enter Zipcode here:</label>
+            <input type="text" id="zip" name="zipcode" placeholder="Enter zipcode">
+            <label for="feelings">How are you feeling today? <img id="no" src="./assets/hi.gif" alt="Weather Icon" style="vertical-align: middle; width: 50px; height: 50px;"> </label>
+            <textarea id="feelings" name="feelings" placeholder="Share your feelings..."></textarea>
+            <div class="button-container">
+                <button type="button" id="generate">
+                    <img src="./assets/mocha-sebusun.gif" alt="Icon" style="vertical-align: middle; width: 50px; height: 50px;"> Generate Weather
+                </button>
+            </div>
+          <hr>
+          <div id="weatherResult" style="display: none;">
+            <p id="date">Date: </p>
+            <div style="display: flex; align-items: center;">
+                <p id="temp">Temperature: </p>
+                <img id="tempIcon" src="./assets/hi.gif" alt="Weather Icon" style="vertical-align: middle; width: 50px; height: 50px;">
+            </div>
+            <p id="content">Your feelings: </p>
+        </div>             
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
