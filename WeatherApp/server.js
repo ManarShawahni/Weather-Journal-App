@@ -1,6 +1,5 @@
 projectData = {};
 
-// Require Express to run server and routes
 // Importing required modules
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -29,7 +28,6 @@ app.get('/all', (req, res) => {
 // Define the port to run the server on
 const port = process.env.port || 3001;
 
-// Tell the app to listen on the specified port
 app.listen(port, () => {
     console.log(`running on localhost: ${port}`);
 });

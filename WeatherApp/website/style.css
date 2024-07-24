@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 html, body {
-    height: 100%; /* Ensures that the html and body tags take up the full viewport height */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    overflow: hidden; /* Prevents scrolling */
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
 }
 
 body {
@@ -77,19 +77,19 @@ button {
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px;
-    transition: transform 0.2s, background-color 0.3s; /* Smooth transitions for hover and active states */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s, background-color 0.3s; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 button:hover, button:focus {
-    background-color: #cf3688; /* A deeper shade of pink for hover and focus */
-    outline: none; /* Removes the default focus outline */
-    transform: scale(1.05); /* Slightly enlarges the button on hover/focus */
+    background-color: #cf3688; 
+    outline: none; 
+    transform: scale(1.05); 
 }
 
 button:active {
-    transform: scale(0.95); /* Slightly shrinks the button when clicked */
-    background-color: #ff82b4; /* A lighter pink for a clicked state */
+    transform: scale(0.95); 
+    background-color: #ff82b4; 
 }
 
 
@@ -103,7 +103,7 @@ h1 {
 }
 
 #temp {
-    margin-right: 10px; /* Adds space between the temperature text and the icon */
+    margin-right: 10px; 
 }
 
 .rain-animation {
