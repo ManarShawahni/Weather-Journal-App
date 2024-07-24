@@ -17,5 +17,5 @@ https://github.com/user-attachments/assets/8a8fd626-5d30-4e02-8073-00e2001a470c
   ```bash
   node server.js
   ```
-- Then go to,
-  http://localhost:3001/
+- Then go to
+  [ http://localhost:3001/ ]
